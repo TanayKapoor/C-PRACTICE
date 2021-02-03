@@ -1,11 +1,15 @@
-/*
- * C Program to sort an array using Bubble Sort technique
- */
 #include <stdio.h>
+void swap(int *a, int *b)
+{
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
 void bubblesort(int arr[], int size)
 {
     int i, j;
-    for (i = 0; i < size; i++)
+    for (i = 1; i < size; i++)
     {
         for (j = 0; j < size - i; j++)
         {
@@ -13,13 +17,6 @@ void bubblesort(int arr[], int size)
                 swap(&arr[j], &arr[j + 1]);
         }
     }
-}
-void swap(int *a, int *b)
-{
-    int temp;
-    temp = *a;
-    *a = *b;
-    *b = temp;
 }
 int main()
 {
