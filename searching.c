@@ -45,10 +45,12 @@ int main()
                 high = mid - 1;
                 mid = (low + high) / 2;
             }
-            if(low>high){
+            if (low > high)
+            {
                 printf("%d is not present in array", search);
             }
         }
+        break;
 
     default:
         printf("choose either from 1 or 2");
