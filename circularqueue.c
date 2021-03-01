@@ -80,7 +80,7 @@ int main()
 {
     printf("Name:- Tanay Kapoor \n");
     printf("Roll No:- 1955991593 \n");
-    printf("Class:- B.Tech It B2 \n");A
+    printf("Class:- B.Tech It B2 \n");
     int choice, item;
     do
     {
