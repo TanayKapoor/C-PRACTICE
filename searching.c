@@ -15,7 +15,7 @@ int main()
     switch (opt)
     {
     case 1:
-        for (int c = 0; c < n; c++)
+        for (int c = 0; c < n; c++)˛
         {
             if (array[c] == search)
             {
